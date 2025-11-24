@@ -6,7 +6,13 @@ def generate_pin_ids(grid_count=config.GRID_SIZE):
     for i in range(grid_count[0] * grid_count[1]): # 第一层的所有点
         pin_ids.append(str(i * grid_count[2]))
     return " ".join(pin_ids)
-
+def generate_sensor_array(sensor_array = config.SENSOR_ARRAY):
+    xml_content = f''
+    for i,sens in enumerate(sensor_array):
+        xml_content+= f'<site name="sensor_{i}" type="box" size="0.015 0.015 0.005" pos="{sens[0]} {sens[1]} -0.005" rgba="1 1 0 0.3"/>'
+    return xml_content
+        
+        
 def create_model_xml(grid=config.GRID_SIZE, indenter=config.INDENTER_RADIUS):
     """创建模型XML内容"""
     pin_ids = generate_pin_ids(grid)
@@ -38,15 +44,13 @@ def create_model_xml(grid=config.GRID_SIZE, indenter=config.INDENTER_RADIUS):
                     pos="{config.INDENTER_X} {config.INDENTER_Y} {indenter/2+0.04}" density="{config.INDENTER_DENSITY}" />
                 <site name="force_sensor_site" type="sphere" size="0.005" pos="0 0 0.005" rgba="1 0 0 1"/>
             </body>
-            <site name="array_00" type="box" size="0.03 0.03 0.01" pos="-0.05 -0.05 -0.01" rgba="1 1 0 0.3"/>
-            <site name="array_01" type="box" size="0.03 0.03 0.01" pos="-0.05 0.05 -0.01" rgba="1 1 0 0.3"/>
-            <site name="array_10" type="box" size="0.03 0.03 0.01" pos="0.05 -0.05 -0.01" rgba="1 1 0 0.3"/>
-            <site name="array_11" type="box" size="0.03 0.03 0.01" pos="0.05 0.05 -0.01" rgba="1 1 0 0.3"/>
+            {generate_sensor_array()}
         </worldbody>
         <actuator>
             <position name="position_control" joint="soft" kp="50000" kv="100" ctrlrange="0.015 0.035"/>
         </actuator>
         <sensor>
+            <force name="force_sensor" site="force_sensor_site" />
             <actuatorfrc name="actuator_force" actuator="position_control"/>
             <jointpos name="indenter_position" joint="soft"/>
             <jointvel name="indenter_velocity" joint="soft"/>

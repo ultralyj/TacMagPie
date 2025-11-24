@@ -6,11 +6,11 @@
             cone="elliptic" integrator="implicitfast"/>
         <size memory="100M" />
         <worldbody>
-            <flexcomp name="A" type="grid" count="11 11 4" 
+            <flexcomp name="A" type="grid" count="7 7 4" 
                 spacing="0.01 0.01 0.01" 
                 pos="0 0 0.015"
-                radius=".0005" rgba="0 1 1 1" dim="3" mass="0.060000000000000005">
-                <pin id="0 4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120 124 128 132 136 140 144 148 152 156 160 164 168 172 176 180 184 188 192 196 200 204 208 212 216 220 224 228 232 236 240 244 248 252 256 260 264 268 272 276 280 284 288 292 296 300 304 308 312 316 320 324 328 332 336 340 344 348 352 356 360 364 368 372 376 380 384 388 392 396 400 404 408 412 416 420 424 428 432 436 440 444 448 452 456 460 464 468 472 476 480" />
+                radius=".0005" rgba="0 1 1 1" dim="3" mass="0.0216">
+                <pin id="0 4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120 124 128 132 136 140 144 148 152 156 160 164 168 172 176 180 184 188 192" />
                 <contact condim="6" selfcollide="none" solref="0.00001 1" 
                     solimp="0.99999 0.99999 0.001 0.99999 1" gap="0"/>
                 <edge damping="1e-1" solimp="0.99999 0.99999 0.001 0.99999 1" solref="0.00001 1"/>
@@ -18,20 +18,18 @@
             </flexcomp>
             <body name="indenter">
                 <joint name="soft" type="slide" axis="0 0 1" range="0.015 0.035"
-                    damping="100" stiffness="5"/>
+                    damping="1" stiffness="0"/>
                 <geom name="indenter_geom" type="capsule" size="0.025 0.04"
                     pos="0 0 0.065" density="1000" />
                 <site name="force_sensor_site" type="sphere" size="0.005" pos="0 0 0.005" rgba="1 0 0 1"/>
             </body>
-            <site name="array_00" type="box" size="0.03 0.03 0.01" pos="-0.05 -0.05 -0.01" rgba="1 1 0 0.3"/>
-            <site name="array_01" type="box" size="0.03 0.03 0.01" pos="-0.05 0.05 -0.01" rgba="1 1 0 0.3"/>
-            <site name="array_10" type="box" size="0.03 0.03 0.01" pos="0.05 -0.05 -0.01" rgba="1 1 0 0.3"/>
-            <site name="array_11" type="box" size="0.03 0.03 0.01" pos="0.05 0.05 -0.01" rgba="1 1 0 0.3"/>
+            <site name="sensor_0" type="box" size="0.015 0.015 0.005" pos="0.04 0.04 -0.005" rgba="1 1 0 0.3"/><site name="sensor_1" type="box" size="0.015 0.015 0.005" pos="-0.04 0.04 -0.005" rgba="1 1 0 0.3"/><site name="sensor_2" type="box" size="0.015 0.015 0.005" pos="0.04 -0.04 -0.005" rgba="1 1 0 0.3"/><site name="sensor_3" type="box" size="0.015 0.015 0.005" pos="-0.04 -0.04 -0.005" rgba="1 1 0 0.3"/><site name="sensor_4" type="box" size="0.015 0.015 0.005" pos="0 0 -0.005" rgba="1 1 0 0.3"/>
         </worldbody>
         <actuator>
             <position name="position_control" joint="soft" kp="50000" kv="100" ctrlrange="0.015 0.035"/>
         </actuator>
         <sensor>
+            <force name="force_sensor" site="force_sensor_site" />
             <actuatorfrc name="actuator_force" actuator="position_control"/>
             <jointpos name="indenter_position" joint="soft"/>
             <jointvel name="indenter_velocity" joint="soft"/>
