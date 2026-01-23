@@ -1,0 +1,34 @@
+2025-12-28 20:13:57 | MainThread   | INFO     | 生成参数组合: 2880 个
+2025-12-28 20:13:57 | MainThread   | INFO     | 开始处理任务: 2880 个
+2025-12-28 20:13:59 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0060, TYPE=4
+2025-12-28 20:13:59 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0060, TYPE=2
+2025-12-28 20:13:59 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0060, TYPE=4
+2025-12-28 20:13:59 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0060, TYPE=1
+2025-12-28 20:13:59 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0040, TYPE=4
+2025-12-28 20:13:59 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0050, TYPE=4
+2025-12-28 20:14:00 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0040, TYPE=3
+2025-12-28 20:14:00 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0040, TYPE=2
+2025-12-28 20:14:00 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0060, TYPE=1
+2025-12-28 20:14:00 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0060, TYPE=3
+2025-12-28 20:14:00 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0060, TYPE=5
+2025-12-28 20:14:00 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0060, TYPE=5
+2025-12-28 20:14:00 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0050, TYPE=2
+2025-12-28 20:14:00 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0060, TYPE=2
+2025-12-28 20:14:00 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0050, TYPE=3
+2025-12-28 20:14:00 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0040, TYPE=3
+2025-12-28 20:14:00 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0050, TYPE=5
+2025-12-28 20:14:00 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0050, TYPE=1
+2025-12-28 20:14:00 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0040, TYPE=1
+2025-12-28 20:14:00 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0040, TYPE=1
+2025-12-28 20:14:00 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0040, TYPE=5
+2025-12-28 20:14:00 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0060, TYPE=3
+2025-12-28 20:14:00 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0040, TYPE=4
+2025-12-28 20:14:04 | MainThread   | WARNING  | 收到中断信号，正在退出...
+2025-12-28 20:14:04 | MainThread   | WARNING  | 程序被中断
+2025-12-28 20:14:04 | MainThread   | INFO     | 
+============================================================
+2025-12-28 20:14:04 | MainThread   | INFO     | 模拟总结:
+2025-12-28 20:14:04 | MainThread   | INFO     | 总任务: 2880 | 完成: 0 | 成功: 0 | 失败: 0
+2025-12-28 20:14:04 | MainThread   | INFO     | 无完成任务
+2025-12-28 20:14:04 | MainThread   | WARNING  | 无有效数据可保存
+2025-12-28 20:14:04 | MainThread   | INFO     | 程序退出 (用户中断)

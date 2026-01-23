@@ -1,0 +1,65 @@
+2025-12-28 20:35:22 | MainThread   | INFO     | 生成参数组合: 2880 个
+2025-12-28 20:35:22 | MainThread   | INFO     | 开始处理任务: 2880 个
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0060_1.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 进度: 1/2880 - 已存在数据，跳过: simulation_results\temp_data\data_0.0062_-0.0060_-0.0060_1.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0060_2.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 进度: 2/2880 - 已存在数据，跳过: simulation_results\temp_data\data_0.0062_-0.0060_-0.0060_2.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0060_3.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 进度: 3/2880 - 已存在数据，跳过: simulation_results\temp_data\data_0.0062_-0.0060_-0.0060_3.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0060_4.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 进度: 4/2880 - 已存在数据，跳过: simulation_results\temp_data\data_0.0062_-0.0060_-0.0060_4.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0060_5.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 进度: 5/2880 - 已存在数据，跳过: simulation_results\temp_data\data_0.0062_-0.0060_-0.0060_5.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0050_1.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0050_2.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0050_3.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0050_4.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0050_5.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0040_1.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0040_2.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0040_3.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0040_4.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0040_5.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0030_1.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0030_2.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0030_3.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0030_4.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0030_5.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0020_1.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0020_3.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0020_4.csv
+2025-12-28 20:35:22 | MainThread   | INFO     | 已存在CSV，加载并跳过模拟: simulation_results\temp_data\data_0.0062_-0.0060_-0.0020_5.csv
+2025-12-28 20:35:24 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0055, TYPE=2
+2025-12-28 20:35:24 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0045, TYPE=4
+2025-12-28 20:35:24 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0045, TYPE=1
+2025-12-28 20:35:24 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0035, TYPE=4
+2025-12-28 20:35:24 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0035, TYPE=1
+2025-12-28 20:35:24 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0035, TYPE=5
+2025-12-28 20:35:24 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0055, TYPE=4
+2025-12-28 20:35:24 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0045, TYPE=5
+2025-12-28 20:35:24 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0055, TYPE=3
+2025-12-28 20:35:24 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0045, TYPE=2
+2025-12-28 20:35:24 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0055, TYPE=5
+2025-12-28 20:35:24 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0025, TYPE=3
+2025-12-28 20:35:24 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0045, TYPE=3
+2025-12-28 20:35:24 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0055, TYPE=1
+2025-12-28 20:35:25 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0035, TYPE=2
+2025-12-28 20:35:25 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0025, TYPE=2
+2025-12-28 20:35:25 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0035, TYPE=3
+2025-12-28 20:35:25 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0025, TYPE=1
+2025-12-28 20:35:25 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0025, TYPE=4
+2025-12-28 20:35:25 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0025, TYPE=5
+2025-12-28 20:35:25 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0015, TYPE=1
+2025-12-28 20:35:25 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0015, TYPE=3
+2025-12-28 20:35:25 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0015, TYPE=2
+2025-12-28 20:35:25 | MainThread   | INFO     | 模拟开始: TARGET=0.0062, X=-0.0060, Y=-0.0015, TYPE=4
+2025-12-28 20:38:25 | MainThread   | INFO     | 进度: 6/2880 - 完成: target=0.0062, x=-0.006, type=1
+2025-12-28 20:38:26 | MainThread   | WARNING  | 收到中断信号，正在退出...
+2025-12-28 20:38:27 | MainThread   | WARNING  | 程序被中断
+2025-12-28 20:38:27 | MainThread   | INFO     | 
+============================================================
+2025-12-28 20:38:27 | MainThread   | INFO     | 模拟总结:
+2025-12-28 20:38:27 | MainThread   | INFO     | 总任务: 2880 | 完成: 6 | 成功: 6 | 失败: 0
+2025-12-28 20:38:27 | MainThread   | INFO     | 耗时: 3.08分钟 | 平均/任务: 30.84秒
+2025-12-28 20:38:27 | MainThread   | INFO     | 数据已保存至: D:\code\magsim\4-scripts\response\simulation_results
+2025-12-28 20:38:27 | MainThread   | INFO     | 程序退出 (用户中断)

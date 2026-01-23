@@ -1,0 +1,328 @@
+2025-12-01 17:19:42 | MainThread   | INFO     | ============================================================
+2025-12-01 17:19:42 | MainThread   | INFO     | 开始多进程模拟处理
+2025-12-01 17:19:42 | MainThread   | INFO     | 可用CPU核心数: 24
+2025-12-01 17:19:42 | MainThread   | INFO     | 使用进程数: 16
+2025-12-01 17:19:42 | MainThread   | INFO     | 提示: 使用 Ctrl+C 可以优雅退出程序
+2025-12-01 17:19:42 | MainThread   | INFO     | ============================================================
+2025-12-01 17:19:42 | MainThread   | INFO     | 输出目录已存在，正在删除 simulation_results 及其所有子目录...
+2025-12-01 17:19:42 | MainThread   | INFO     | 删除完成
+2025-12-01 17:19:42 | MainThread   | INFO     | 总共生成 390 个参数组合
+2025-12-01 17:19:42 | MainThread   | INFO     | 开始处理 390 个任务
+2025-12-01 17:19:50 | MainThread   | INFO     | 进度: 1/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.0
+2025-12-01 17:19:50 | MainThread   | INFO     | 进度: 2/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.002
+2025-12-01 17:19:50 | MainThread   | INFO     | 进度: 3/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.004
+2025-12-01 17:19:51 | MainThread   | INFO     | 进度: 4/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.006
+2025-12-01 17:19:51 | MainThread   | INFO     | 进度: 5/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.008
+2025-12-01 17:19:51 | MainThread   | INFO     | 进度: 6/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.01
+2025-12-01 17:19:51 | MainThread   | INFO     | 进度: 7/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.012
+2025-12-01 17:19:51 | MainThread   | INFO     | 进度: 8/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.014
+2025-12-01 17:19:51 | MainThread   | INFO     | 进度: 9/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.016
+2025-12-01 17:19:51 | MainThread   | INFO     | 进度: 10/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.018
+2025-12-01 17:19:51 | MainThread   | INFO     | 进度报告: 已完成 10/390 (2.6%) - 预计剩余时间: 5.2分钟
+2025-12-01 17:19:52 | MainThread   | INFO     | 系统状态: CPU使用率 75.9%, 内存使用率 8.5%
+2025-12-01 17:19:52 | MainThread   | INFO     | 进度: 11/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.02
+2025-12-01 17:19:52 | MainThread   | INFO     | 进度: 12/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.022
+2025-12-01 17:19:52 | MainThread   | INFO     | 进度: 13/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.024
+2025-12-01 17:19:52 | MainThread   | INFO     | 进度: 14/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.026
+2025-12-01 17:19:52 | MainThread   | INFO     | 进度: 15/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.028
+2025-12-01 17:19:52 | MainThread   | INFO     | 进度: 16/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.03
+2025-12-01 17:19:58 | MainThread   | INFO     | 进度: 17/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.032
+2025-12-01 17:19:58 | MainThread   | INFO     | 进度: 18/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.034
+2025-12-01 17:19:58 | MainThread   | INFO     | 进度: 19/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.036
+2025-12-01 17:19:58 | MainThread   | INFO     | 进度: 20/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.038
+2025-12-01 17:19:58 | MainThread   | INFO     | 进度报告: 已完成 20/390 (5.1%) - 预计剩余时间: 4.8分钟
+2025-12-01 17:19:59 | MainThread   | INFO     | 系统状态: CPU使用率 74.8%, 内存使用率 8.3%
+2025-12-01 17:19:59 | MainThread   | INFO     | 进度: 21/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.04
+2025-12-01 17:19:59 | MainThread   | INFO     | 进度: 22/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.042
+2025-12-01 17:19:59 | MainThread   | INFO     | 进度: 23/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.044
+2025-12-01 17:19:59 | MainThread   | INFO     | 进度: 24/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.046
+2025-12-01 17:19:59 | MainThread   | INFO     | 进度: 25/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.048
+2025-12-01 17:19:59 | MainThread   | INFO     | 进度: 26/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.05
+2025-12-01 17:19:59 | MainThread   | INFO     | 进度: 27/390 - 完成: Case completed: target=0.027, indenter_x=0.0
+2025-12-01 17:19:59 | MainThread   | INFO     | 进度: 28/390 - 完成: Case completed: target=0.027, indenter_x=0.002
+2025-12-01 17:19:59 | MainThread   | INFO     | 进度: 29/390 - 完成: Case completed: target=0.027, indenter_x=0.004
+2025-12-01 17:19:59 | MainThread   | INFO     | 进度: 30/390 - 完成: Case completed: target=0.027, indenter_x=0.006
+2025-12-01 17:19:59 | MainThread   | INFO     | 进度报告: 已完成 30/390 (7.7%) - 预计剩余时间: 3.3分钟
+2025-12-01 17:20:00 | MainThread   | INFO     | 系统状态: CPU使用率 73.1%, 内存使用率 8.6%
+2025-12-01 17:20:00 | MainThread   | INFO     | 进度: 31/390 - 完成: Case completed: target=0.027, indenter_x=0.008
+2025-12-01 17:20:00 | MainThread   | INFO     | 进度: 32/390 - 完成: Case completed: target=0.027, indenter_x=0.01
+2025-12-01 17:20:06 | MainThread   | INFO     | 进度: 33/390 - 完成: Case completed: target=0.027, indenter_x=0.012
+2025-12-01 17:20:06 | MainThread   | INFO     | 进度: 34/390 - 完成: Case completed: target=0.027, indenter_x=0.014
+2025-12-01 17:20:06 | MainThread   | INFO     | 进度: 35/390 - 完成: Case completed: target=0.027, indenter_x=0.016
+2025-12-01 17:20:06 | MainThread   | INFO     | 进度: 36/390 - 完成: Case completed: target=0.027, indenter_x=0.018
+2025-12-01 17:20:06 | MainThread   | INFO     | 进度: 37/390 - 完成: Case completed: target=0.027, indenter_x=0.02
+2025-12-01 17:20:06 | MainThread   | INFO     | 进度: 38/390 - 完成: Case completed: target=0.027, indenter_x=0.022
+2025-12-01 17:20:06 | MainThread   | INFO     | 进度: 39/390 - 完成: Case completed: target=0.027, indenter_x=0.024
+2025-12-01 17:20:06 | MainThread   | INFO     | 进度: 40/390 - 完成: Case completed: target=0.027, indenter_x=0.026
+2025-12-01 17:20:06 | MainThread   | INFO     | 进度报告: 已完成 40/390 (10.3%) - 预计剩余时间: 3.5分钟
+2025-12-01 17:20:07 | MainThread   | INFO     | 系统状态: CPU使用率 74.1%, 内存使用率 8.2%
+2025-12-01 17:20:07 | MainThread   | INFO     | 进度: 41/390 - 完成: Case completed: target=0.027, indenter_x=0.028
+2025-12-01 17:20:07 | MainThread   | INFO     | 进度: 42/390 - 完成: Case completed: target=0.027, indenter_x=0.03
+2025-12-01 17:20:07 | MainThread   | INFO     | 进度: 43/390 - 完成: Case completed: target=0.027, indenter_x=0.032
+2025-12-01 17:20:07 | MainThread   | INFO     | 进度: 44/390 - 完成: Case completed: target=0.027, indenter_x=0.034
+2025-12-01 17:20:07 | MainThread   | INFO     | 进度: 45/390 - 完成: Case completed: target=0.027, indenter_x=0.036
+2025-12-01 17:20:07 | MainThread   | INFO     | 进度: 46/390 - 完成: Case completed: target=0.027, indenter_x=0.038
+2025-12-01 17:20:07 | MainThread   | INFO     | 进度: 47/390 - 完成: Case completed: target=0.027, indenter_x=0.04
+2025-12-01 17:20:07 | MainThread   | INFO     | 进度: 48/390 - 完成: Case completed: target=0.027, indenter_x=0.042
+2025-12-01 17:20:14 | MainThread   | INFO     | 进度: 49/390 - 完成: Case completed: target=0.027, indenter_x=0.044
+2025-12-01 17:20:14 | MainThread   | INFO     | 进度: 50/390 - 完成: Case completed: target=0.027, indenter_x=0.046
+2025-12-01 17:20:14 | MainThread   | INFO     | 进度报告: 已完成 50/390 (12.8%) - 预计剩余时间: 3.6分钟
+2025-12-01 17:20:15 | MainThread   | INFO     | 系统状态: CPU使用率 73.4%, 内存使用率 8.2%
+2025-12-01 17:20:15 | MainThread   | INFO     | 进度: 51/390 - 完成: Case completed: target=0.027, indenter_x=0.048
+2025-12-01 17:20:15 | MainThread   | INFO     | 进度: 52/390 - 完成: Case completed: target=0.027, indenter_x=0.05
+2025-12-01 17:20:15 | MainThread   | INFO     | 进度: 53/390 - 完成: Case completed: target=0.026, indenter_x=0.0
+2025-12-01 17:20:15 | MainThread   | INFO     | 进度: 54/390 - 完成: Case completed: target=0.026, indenter_x=0.002
+2025-12-01 17:20:15 | MainThread   | INFO     | 进度: 55/390 - 完成: Case completed: target=0.026, indenter_x=0.004
+2025-12-01 17:20:15 | MainThread   | INFO     | 进度: 56/390 - 完成: Case completed: target=0.026, indenter_x=0.006
+2025-12-01 17:20:15 | MainThread   | INFO     | 进度: 57/390 - 完成: Case completed: target=0.026, indenter_x=0.008
+2025-12-01 17:20:15 | MainThread   | INFO     | 进度: 58/390 - 完成: Case completed: target=0.026, indenter_x=0.01
+2025-12-01 17:20:15 | MainThread   | INFO     | 进度: 59/390 - 完成: Case completed: target=0.026, indenter_x=0.012
+2025-12-01 17:20:16 | MainThread   | INFO     | 进度: 60/390 - 完成: Case completed: target=0.026, indenter_x=0.014
+2025-12-01 17:20:16 | MainThread   | INFO     | 进度报告: 已完成 60/390 (15.4%) - 预计剩余时间: 3.1分钟
+2025-12-01 17:20:17 | MainThread   | INFO     | 系统状态: CPU使用率 74.9%, 内存使用率 8.6%
+2025-12-01 17:20:17 | MainThread   | INFO     | 进度: 61/390 - 完成: Case completed: target=0.026, indenter_x=0.016
+2025-12-01 17:20:17 | MainThread   | INFO     | 进度: 62/390 - 完成: Case completed: target=0.026, indenter_x=0.018
+2025-12-01 17:20:17 | MainThread   | INFO     | 进度: 63/390 - 完成: Case completed: target=0.026, indenter_x=0.02
+2025-12-01 17:20:17 | MainThread   | INFO     | 进度: 64/390 - 完成: Case completed: target=0.026, indenter_x=0.022
+2025-12-01 17:20:22 | MainThread   | INFO     | 进度: 65/390 - 完成: Case completed: target=0.026, indenter_x=0.024
+2025-12-01 17:20:23 | MainThread   | INFO     | 进度: 66/390 - 完成: Case completed: target=0.026, indenter_x=0.026
+2025-12-01 17:20:23 | MainThread   | INFO     | 进度: 67/390 - 完成: Case completed: target=0.026, indenter_x=0.028
+2025-12-01 17:20:23 | MainThread   | INFO     | 进度: 68/390 - 完成: Case completed: target=0.026, indenter_x=0.03
+2025-12-01 17:20:24 | MainThread   | INFO     | 进度: 69/390 - 完成: Case completed: target=0.026, indenter_x=0.032
+2025-12-01 17:20:24 | MainThread   | INFO     | 进度: 70/390 - 完成: Case completed: target=0.026, indenter_x=0.034
+2025-12-01 17:20:24 | MainThread   | INFO     | 进度报告: 已完成 70/390 (17.9%) - 预计剩余时间: 3.1分钟
+2025-12-01 17:20:25 | MainThread   | INFO     | 系统状态: CPU使用率 73.0%, 内存使用率 8.5%
+2025-12-01 17:20:25 | MainThread   | INFO     | 进度: 71/390 - 完成: Case completed: target=0.026, indenter_x=0.036
+2025-12-01 17:20:25 | MainThread   | INFO     | 进度: 72/390 - 完成: Case completed: target=0.026, indenter_x=0.038
+2025-12-01 17:20:25 | MainThread   | INFO     | 进度: 73/390 - 完成: Case completed: target=0.026, indenter_x=0.04
+2025-12-01 17:20:25 | MainThread   | INFO     | 进度: 74/390 - 完成: Case completed: target=0.026, indenter_x=0.042
+2025-12-01 17:20:25 | MainThread   | INFO     | 进度: 75/390 - 完成: Case completed: target=0.026, indenter_x=0.044
+2025-12-01 17:20:25 | MainThread   | INFO     | 进度: 76/390 - 完成: Case completed: target=0.026, indenter_x=0.046
+2025-12-01 17:20:25 | MainThread   | INFO     | 进度: 77/390 - 完成: Case completed: target=0.026, indenter_x=0.048
+2025-12-01 17:20:25 | MainThread   | INFO     | 进度: 78/390 - 完成: Case completed: target=0.026, indenter_x=0.05
+2025-12-01 17:20:26 | MainThread   | INFO     | 进度: 79/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.0
+2025-12-01 17:20:26 | MainThread   | INFO     | 进度: 80/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.002
+2025-12-01 17:20:26 | MainThread   | INFO     | 进度报告: 已完成 80/390 (20.5%) - 预计剩余时间: 2.8分钟
+2025-12-01 17:20:27 | MainThread   | INFO     | 系统状态: CPU使用率 74.8%, 内存使用率 8.7%
+2025-12-01 17:20:32 | MainThread   | INFO     | 进度: 81/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.004
+2025-12-01 17:20:32 | MainThread   | INFO     | 进度: 82/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.006
+2025-12-01 17:20:33 | MainThread   | INFO     | 进度: 83/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.008
+2025-12-01 17:20:33 | MainThread   | INFO     | 进度: 84/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.01
+2025-12-01 17:20:33 | MainThread   | INFO     | 进度: 85/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.012
+2025-12-01 17:20:33 | MainThread   | INFO     | 进度: 86/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.014
+2025-12-01 17:20:34 | MainThread   | INFO     | 进度: 87/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.016
+2025-12-01 17:20:34 | MainThread   | INFO     | 进度: 88/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.018
+2025-12-01 17:20:34 | MainThread   | INFO     | 进度: 89/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.02
+2025-12-01 17:20:34 | MainThread   | INFO     | 进度: 90/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.022
+2025-12-01 17:20:34 | MainThread   | INFO     | 进度报告: 已完成 90/390 (23.1%) - 预计剩余时间: 2.8分钟
+2025-12-01 17:20:35 | MainThread   | INFO     | 系统状态: CPU使用率 70.6%, 内存使用率 8.5%
+2025-12-01 17:20:35 | MainThread   | INFO     | 进度: 91/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.024
+2025-12-01 17:20:35 | MainThread   | INFO     | 进度: 92/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.026
+2025-12-01 17:20:35 | MainThread   | INFO     | 进度: 93/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.028
+2025-12-01 17:20:35 | MainThread   | INFO     | 进度: 94/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.03
+2025-12-01 17:20:36 | MainThread   | INFO     | 进度: 95/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.032
+2025-12-01 17:20:36 | MainThread   | INFO     | 进度: 96/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.034
+2025-12-01 17:20:42 | MainThread   | INFO     | 进度: 97/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.036
+2025-12-01 17:20:43 | MainThread   | INFO     | 进度: 98/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.038
+2025-12-01 17:20:43 | MainThread   | INFO     | 进度: 99/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.04
+2025-12-01 17:20:43 | MainThread   | INFO     | 进度: 100/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.042
+2025-12-01 17:20:43 | MainThread   | INFO     | 进度报告: 已完成 100/390 (25.6%) - 预计剩余时间: 2.9分钟
+2025-12-01 17:20:44 | MainThread   | INFO     | 系统状态: CPU使用率 73.3%, 内存使用率 8.4%
+2025-12-01 17:20:44 | MainThread   | INFO     | 进度: 101/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.044
+2025-12-01 17:20:44 | MainThread   | INFO     | 进度: 102/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.046
+2025-12-01 17:20:44 | MainThread   | INFO     | 进度: 103/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.048
+2025-12-01 17:20:44 | MainThread   | INFO     | 进度: 104/390 - 完成: Case completed: target=0.024999999999999998, indenter_x=0.05
+2025-12-01 17:20:45 | MainThread   | INFO     | 进度: 105/390 - 完成: Case completed: target=0.024, indenter_x=0.0
+2025-12-01 17:20:45 | MainThread   | INFO     | 进度: 106/390 - 完成: Case completed: target=0.024, indenter_x=0.002
+2025-12-01 17:20:45 | MainThread   | INFO     | 进度: 107/390 - 完成: Case completed: target=0.024, indenter_x=0.004
+2025-12-01 17:20:45 | MainThread   | INFO     | 进度: 108/390 - 完成: Case completed: target=0.024, indenter_x=0.006
+2025-12-01 17:20:45 | MainThread   | INFO     | 进度: 109/390 - 完成: Case completed: target=0.024, indenter_x=0.008
+2025-12-01 17:20:46 | MainThread   | INFO     | 进度: 110/390 - 完成: Case completed: target=0.024, indenter_x=0.01
+2025-12-01 17:20:46 | MainThread   | INFO     | 进度报告: 已完成 110/390 (28.2%) - 预计剩余时间: 2.7分钟
+2025-12-01 17:20:47 | MainThread   | INFO     | 系统状态: CPU使用率 71.6%, 内存使用率 8.6%
+2025-12-01 17:20:47 | MainThread   | INFO     | 进度: 111/390 - 完成: Case completed: target=0.024, indenter_x=0.012
+2025-12-01 17:20:47 | MainThread   | INFO     | 进度: 112/390 - 完成: Case completed: target=0.024, indenter_x=0.014
+2025-12-01 17:20:53 | MainThread   | INFO     | 进度: 113/390 - 完成: Case completed: target=0.024, indenter_x=0.016
+2025-12-01 17:20:54 | MainThread   | INFO     | 进度: 114/390 - 完成: Case completed: target=0.024, indenter_x=0.018
+2025-12-01 17:20:54 | MainThread   | INFO     | 进度: 115/390 - 完成: Case completed: target=0.024, indenter_x=0.02
+2025-12-01 17:20:54 | MainThread   | INFO     | 进度: 116/390 - 完成: Case completed: target=0.024, indenter_x=0.022
+2025-12-01 17:20:54 | MainThread   | INFO     | 进度: 117/390 - 完成: Case completed: target=0.024, indenter_x=0.024
+2025-12-01 17:20:55 | MainThread   | INFO     | 进度: 118/390 - 完成: Case completed: target=0.024, indenter_x=0.026
+2025-12-01 17:20:55 | MainThread   | INFO     | 进度: 119/390 - 完成: Case completed: target=0.024, indenter_x=0.028
+2025-12-01 17:20:55 | MainThread   | INFO     | 进度: 120/390 - 完成: Case completed: target=0.024, indenter_x=0.03
+2025-12-01 17:20:55 | MainThread   | INFO     | 进度报告: 已完成 120/390 (30.8%) - 预计剩余时间: 2.7分钟
+2025-12-01 17:20:56 | MainThread   | INFO     | 系统状态: CPU使用率 72.7%, 内存使用率 8.6%
+2025-12-01 17:20:56 | MainThread   | INFO     | 进度: 121/390 - 完成: Case completed: target=0.024, indenter_x=0.032
+2025-12-01 17:20:56 | MainThread   | INFO     | 进度: 122/390 - 完成: Case completed: target=0.024, indenter_x=0.034
+2025-12-01 17:20:56 | MainThread   | INFO     | 进度: 123/390 - 完成: Case completed: target=0.024, indenter_x=0.036
+2025-12-01 17:20:57 | MainThread   | INFO     | 进度: 124/390 - 完成: Case completed: target=0.024, indenter_x=0.038
+2025-12-01 17:20:57 | MainThread   | INFO     | 进度: 125/390 - 完成: Case completed: target=0.024, indenter_x=0.04
+2025-12-01 17:20:57 | MainThread   | INFO     | 进度: 126/390 - 完成: Case completed: target=0.024, indenter_x=0.042
+2025-12-01 17:20:58 | MainThread   | INFO     | 进度: 127/390 - 完成: Case completed: target=0.024, indenter_x=0.044
+2025-12-01 17:20:58 | MainThread   | INFO     | 进度: 128/390 - 完成: Case completed: target=0.024, indenter_x=0.046
+2025-12-01 17:21:05 | MainThread   | INFO     | 进度: 129/390 - 完成: Case completed: target=0.024, indenter_x=0.048
+2025-12-01 17:21:05 | MainThread   | INFO     | 进度: 130/390 - 完成: Case completed: target=0.024, indenter_x=0.05
+2025-12-01 17:21:05 | MainThread   | INFO     | 进度报告: 已完成 130/390 (33.3%) - 预计剩余时间: 2.8分钟
+2025-12-01 17:21:06 | MainThread   | INFO     | 系统状态: CPU使用率 72.9%, 内存使用率 8.8%
+2025-12-01 17:21:06 | MainThread   | INFO     | 进度: 131/390 - 完成: Case completed: target=0.023, indenter_x=0.0
+2025-12-01 17:21:06 | MainThread   | INFO     | 进度: 132/390 - 完成: Case completed: target=0.023, indenter_x=0.002
+2025-12-01 17:21:07 | MainThread   | INFO     | 进度: 133/390 - 完成: Case completed: target=0.023, indenter_x=0.004
+2025-12-01 17:21:07 | MainThread   | INFO     | 进度: 134/390 - 完成: Case completed: target=0.023, indenter_x=0.006
+2025-12-01 17:21:07 | MainThread   | INFO     | 进度: 135/390 - 完成: Case completed: target=0.023, indenter_x=0.008
+2025-12-01 17:21:08 | MainThread   | INFO     | 进度: 136/390 - 完成: Case completed: target=0.023, indenter_x=0.01
+2025-12-01 17:21:08 | MainThread   | INFO     | 进度: 137/390 - 完成: Case completed: target=0.023, indenter_x=0.012
+2025-12-01 17:21:08 | MainThread   | INFO     | 进度: 138/390 - 完成: Case completed: target=0.023, indenter_x=0.014
+2025-12-01 17:21:09 | MainThread   | INFO     | 进度: 139/390 - 完成: Case completed: target=0.023, indenter_x=0.016
+2025-12-01 17:21:09 | MainThread   | INFO     | 进度: 140/390 - 完成: Case completed: target=0.023, indenter_x=0.018
+2025-12-01 17:21:09 | MainThread   | INFO     | 进度报告: 已完成 140/390 (35.9%) - 预计剩余时间: 2.6分钟
+2025-12-01 17:21:10 | MainThread   | INFO     | 系统状态: CPU使用率 76.5%, 内存使用率 8.7%
+2025-12-01 17:21:10 | MainThread   | INFO     | 进度: 141/390 - 完成: Case completed: target=0.023, indenter_x=0.02
+2025-12-01 17:21:10 | MainThread   | INFO     | 进度: 142/390 - 完成: Case completed: target=0.023, indenter_x=0.022
+2025-12-01 17:21:11 | MainThread   | INFO     | 进度: 143/390 - 完成: Case completed: target=0.023, indenter_x=0.024
+2025-12-01 17:21:11 | MainThread   | INFO     | 进度: 144/390 - 完成: Case completed: target=0.023, indenter_x=0.026
+2025-12-01 17:21:17 | MainThread   | INFO     | 进度: 145/390 - 完成: Case completed: target=0.023, indenter_x=0.028
+2025-12-01 17:21:17 | MainThread   | INFO     | 进度: 146/390 - 完成: Case completed: target=0.023, indenter_x=0.03
+2025-12-01 17:21:18 | MainThread   | INFO     | 进度: 147/390 - 完成: Case completed: target=0.023, indenter_x=0.032
+2025-12-01 17:21:18 | MainThread   | INFO     | 进度: 148/390 - 完成: Case completed: target=0.023, indenter_x=0.034
+2025-12-01 17:21:18 | MainThread   | INFO     | 进度: 149/390 - 完成: Case completed: target=0.023, indenter_x=0.036
+2025-12-01 17:21:19 | MainThread   | INFO     | 进度: 150/390 - 完成: Case completed: target=0.023, indenter_x=0.038
+2025-12-01 17:21:19 | MainThread   | INFO     | 进度报告: 已完成 150/390 (38.5%) - 预计剩余时间: 2.6分钟
+2025-12-01 17:21:20 | MainThread   | INFO     | 系统状态: CPU使用率 79.5%, 内存使用率 8.5%
+2025-12-01 17:21:20 | MainThread   | INFO     | 进度: 151/390 - 完成: Case completed: target=0.023, indenter_x=0.04
+2025-12-01 17:21:20 | MainThread   | INFO     | 进度: 152/390 - 完成: Case completed: target=0.023, indenter_x=0.042
+2025-12-01 17:21:20 | MainThread   | INFO     | 进度: 153/390 - 完成: Case completed: target=0.023, indenter_x=0.044
+2025-12-01 17:21:21 | MainThread   | INFO     | 进度: 154/390 - 完成: Case completed: target=0.023, indenter_x=0.046
+2025-12-01 17:21:21 | MainThread   | INFO     | 进度: 155/390 - 完成: Case completed: target=0.023, indenter_x=0.048
+2025-12-01 17:21:21 | MainThread   | INFO     | 进度: 156/390 - 完成: Case completed: target=0.023, indenter_x=0.05
+2025-12-01 17:21:22 | MainThread   | INFO     | 进度: 157/390 - 完成: Case completed: target=0.022, indenter_x=0.0
+2025-12-01 17:21:22 | MainThread   | INFO     | 进度: 158/390 - 完成: Case completed: target=0.022, indenter_x=0.002
+2025-12-01 17:21:23 | MainThread   | INFO     | 进度: 159/390 - 完成: Case completed: target=0.022, indenter_x=0.004
+2025-12-01 17:21:24 | MainThread   | INFO     | 进度: 160/390 - 完成: Case completed: target=0.022, indenter_x=0.006
+2025-12-01 17:21:24 | MainThread   | INFO     | 进度报告: 已完成 160/390 (41.0%) - 预计剩余时间: 2.4分钟
+2025-12-01 17:21:25 | MainThread   | INFO     | 系统状态: CPU使用率 76.8%, 内存使用率 8.7%
+2025-12-01 17:21:30 | MainThread   | INFO     | 进度: 161/390 - 完成: Case completed: target=0.022, indenter_x=0.008
+2025-12-01 17:21:30 | MainThread   | INFO     | 进度: 162/390 - 完成: Case completed: target=0.022, indenter_x=0.01
+2025-12-01 17:21:31 | MainThread   | INFO     | 进度: 163/390 - 完成: Case completed: target=0.022, indenter_x=0.012
+2025-12-01 17:21:31 | MainThread   | INFO     | 进度: 164/390 - 完成: Case completed: target=0.022, indenter_x=0.014
+2025-12-01 17:21:31 | MainThread   | INFO     | 进度: 165/390 - 完成: Case completed: target=0.022, indenter_x=0.016
+2025-12-01 17:21:32 | MainThread   | INFO     | 进度: 166/390 - 完成: Case completed: target=0.022, indenter_x=0.018
+2025-12-01 17:21:32 | MainThread   | INFO     | 进度: 167/390 - 完成: Case completed: target=0.022, indenter_x=0.02
+2025-12-01 17:21:32 | MainThread   | INFO     | 进度: 168/390 - 完成: Case completed: target=0.022, indenter_x=0.022
+2025-12-01 17:21:33 | MainThread   | INFO     | 进度: 169/390 - 完成: Case completed: target=0.022, indenter_x=0.024
+2025-12-01 17:21:33 | MainThread   | INFO     | 进度: 170/390 - 完成: Case completed: target=0.022, indenter_x=0.026
+2025-12-01 17:21:33 | MainThread   | INFO     | 进度报告: 已完成 170/390 (43.6%) - 预计剩余时间: 2.4分钟
+2025-12-01 17:21:34 | MainThread   | INFO     | 系统状态: CPU使用率 75.6%, 内存使用率 8.7%
+2025-12-01 17:21:34 | MainThread   | INFO     | 进度: 171/390 - 完成: Case completed: target=0.022, indenter_x=0.028
+2025-12-01 17:21:34 | MainThread   | INFO     | 进度: 172/390 - 完成: Case completed: target=0.022, indenter_x=0.03
+2025-12-01 17:21:35 | MainThread   | INFO     | 进度: 173/390 - 完成: Case completed: target=0.022, indenter_x=0.032
+2025-12-01 17:21:35 | MainThread   | INFO     | 进度: 174/390 - 完成: Case completed: target=0.022, indenter_x=0.034
+2025-12-01 17:21:36 | MainThread   | INFO     | 进度: 175/390 - 完成: Case completed: target=0.022, indenter_x=0.036
+2025-12-01 17:21:37 | MainThread   | INFO     | 进度: 176/390 - 完成: Case completed: target=0.022, indenter_x=0.038
+2025-12-01 17:21:42 | MainThread   | INFO     | 进度: 177/390 - 完成: Case completed: target=0.022, indenter_x=0.04
+2025-12-01 17:21:43 | MainThread   | INFO     | 进度: 178/390 - 完成: Case completed: target=0.022, indenter_x=0.042
+2025-12-01 17:21:43 | MainThread   | INFO     | 进度: 179/390 - 完成: Case completed: target=0.022, indenter_x=0.044
+2025-12-01 17:21:44 | MainThread   | INFO     | 进度: 180/390 - 完成: Case completed: target=0.022, indenter_x=0.046
+2025-12-01 17:21:44 | MainThread   | INFO     | 进度报告: 已完成 180/390 (46.2%) - 预计剩余时间: 2.4分钟
+2025-12-01 17:21:45 | MainThread   | INFO     | 系统状态: CPU使用率 77.2%, 内存使用率 8.8%
+2025-12-01 17:21:45 | MainThread   | INFO     | 进度: 181/390 - 完成: Case completed: target=0.022, indenter_x=0.048
+2025-12-01 17:21:45 | MainThread   | INFO     | 进度: 182/390 - 完成: Case completed: target=0.022, indenter_x=0.05
+2025-12-01 17:21:45 | MainThread   | INFO     | 进度: 183/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.0
+2025-12-01 17:21:46 | MainThread   | INFO     | 进度: 184/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.002
+2025-12-01 17:21:46 | MainThread   | INFO     | 进度: 185/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.004
+2025-12-01 17:21:46 | MainThread   | INFO     | 进度: 186/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.006
+2025-12-01 17:21:46 | MainThread   | INFO     | 进度: 187/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.008
+2025-12-01 17:21:47 | MainThread   | INFO     | 进度: 188/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.01
+2025-12-01 17:21:48 | MainThread   | INFO     | 进度: 189/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.012
+2025-12-01 17:21:48 | MainThread   | INFO     | 进度: 190/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.014
+2025-12-01 17:21:48 | MainThread   | INFO     | 进度报告: 已完成 190/390 (48.7%) - 预计剩余时间: 2.2分钟
+2025-12-01 17:21:49 | MainThread   | INFO     | 系统状态: CPU使用率 72.5%, 内存使用率 8.8%
+2025-12-01 17:21:49 | MainThread   | INFO     | 进度: 191/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.016
+2025-12-01 17:21:50 | MainThread   | INFO     | 进度: 192/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.018
+2025-12-01 17:21:56 | MainThread   | INFO     | 进度: 193/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.02
+2025-12-01 17:21:56 | MainThread   | INFO     | 进度: 194/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.022
+2025-12-01 17:21:56 | MainThread   | INFO     | 进度: 195/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.024
+2025-12-01 17:21:57 | MainThread   | INFO     | 进度: 196/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.026
+2025-12-01 17:21:57 | MainThread   | INFO     | 进度: 197/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.028
+2025-12-01 17:21:57 | MainThread   | INFO     | 进度: 198/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.03
+2025-12-01 17:21:59 | MainThread   | INFO     | 进度: 199/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.032
+2025-12-01 17:21:59 | MainThread   | INFO     | 进度: 200/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.034
+2025-12-01 17:21:59 | MainThread   | INFO     | 进度报告: 已完成 200/390 (51.3%) - 预计剩余时间: 2.2分钟
+2025-12-01 17:22:00 | MainThread   | INFO     | 系统状态: CPU使用率 73.4%, 内存使用率 8.6%
+2025-12-01 17:22:00 | MainThread   | INFO     | 进度: 201/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.036
+2025-12-01 17:22:00 | MainThread   | INFO     | 进度: 202/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.038
+2025-12-01 17:22:00 | MainThread   | INFO     | 进度: 203/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.04
+2025-12-01 17:22:01 | MainThread   | INFO     | 进度: 204/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.042
+2025-12-01 17:22:02 | MainThread   | INFO     | 进度: 205/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.044
+2025-12-01 17:22:02 | MainThread   | INFO     | 进度: 206/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.046
+2025-12-01 17:22:03 | MainThread   | INFO     | 进度: 207/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.048
+2025-12-01 17:22:03 | MainThread   | INFO     | 进度: 208/390 - 完成: Case completed: target=0.020999999999999998, indenter_x=0.05
+2025-12-01 17:22:10 | MainThread   | INFO     | 进度: 209/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.0
+2025-12-01 17:22:10 | MainThread   | INFO     | 进度: 210/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.002
+2025-12-01 17:22:10 | MainThread   | INFO     | 进度报告: 已完成 210/390 (53.8%) - 预计剩余时间: 2.1分钟
+2025-12-01 17:22:11 | MainThread   | INFO     | 系统状态: CPU使用率 73.2%, 内存使用率 8.7%
+2025-12-01 17:22:11 | MainThread   | INFO     | 进度: 211/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.004
+2025-12-01 17:22:11 | MainThread   | INFO     | 进度: 212/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.006
+2025-12-01 17:22:11 | MainThread   | INFO     | 进度: 213/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.008
+2025-12-01 17:22:11 | MainThread   | INFO     | 进度: 214/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.01
+2025-12-01 17:22:13 | MainThread   | INFO     | 进度: 215/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.012
+2025-12-01 17:22:13 | MainThread   | INFO     | 进度: 216/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.014
+2025-12-01 17:22:13 | MainThread   | INFO     | 进度: 217/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.016
+2025-12-01 17:22:13 | MainThread   | INFO     | 进度: 218/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.018
+2025-12-01 17:22:14 | MainThread   | INFO     | 进度: 219/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.02
+2025-12-01 17:22:15 | MainThread   | INFO     | 进度: 220/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.022
+2025-12-01 17:22:15 | MainThread   | INFO     | 进度报告: 已完成 220/390 (56.4%) - 预计剩余时间: 2.0分钟
+2025-12-01 17:22:16 | MainThread   | INFO     | 系统状态: CPU使用率 76.5%, 内存使用率 8.8%
+2025-12-01 17:22:16 | MainThread   | INFO     | 进度: 221/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.024
+2025-12-01 17:22:16 | MainThread   | INFO     | 进度: 222/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.026
+2025-12-01 17:22:17 | MainThread   | INFO     | 进度: 223/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.028
+2025-12-01 17:22:17 | MainThread   | INFO     | 进度: 224/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.03
+2025-12-01 17:22:24 | MainThread   | INFO     | 进度: 225/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.032
+2025-12-01 17:22:25 | MainThread   | INFO     | 进度: 226/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.034
+2025-12-01 17:22:25 | MainThread   | INFO     | 进度: 227/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.036
+2025-12-01 17:22:25 | MainThread   | INFO     | 进度: 228/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.038
+2025-12-01 17:22:25 | MainThread   | INFO     | 进度: 229/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.04
+2025-12-01 17:22:25 | MainThread   | INFO     | 进度: 230/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.042
+2025-12-01 17:22:25 | MainThread   | INFO     | 进度报告: 已完成 230/390 (59.0%) - 预计剩余时间: 1.9分钟
+2025-12-01 17:22:26 | MainThread   | INFO     | 系统状态: CPU使用率 73.4%, 内存使用率 8.9%
+2025-12-01 17:22:27 | MainThread   | INFO     | 进度: 231/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.044
+2025-12-01 17:22:27 | MainThread   | INFO     | 进度: 232/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.046
+2025-12-01 17:22:27 | MainThread   | INFO     | 进度: 233/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.048
+2025-12-01 17:22:28 | MainThread   | INFO     | 进度: 234/390 - 完成: Case completed: target=0.019999999999999997, indenter_x=0.05
+2025-12-01 17:22:29 | MainThread   | INFO     | 进度: 235/390 - 完成: Case completed: target=0.019, indenter_x=0.0
+2025-12-01 17:22:30 | MainThread   | INFO     | 进度: 236/390 - 完成: Case completed: target=0.019, indenter_x=0.002
+2025-12-01 17:22:30 | MainThread   | INFO     | 进度: 237/390 - 完成: Case completed: target=0.019, indenter_x=0.004
+2025-12-01 17:22:32 | MainThread   | INFO     | 进度: 238/390 - 完成: Case completed: target=0.019, indenter_x=0.006
+2025-12-01 17:22:32 | MainThread   | INFO     | 进度: 239/390 - 完成: Case completed: target=0.019, indenter_x=0.008
+2025-12-01 17:22:32 | MainThread   | INFO     | 进度: 240/390 - 完成: Case completed: target=0.019, indenter_x=0.01
+2025-12-01 17:22:32 | MainThread   | INFO     | 进度报告: 已完成 240/390 (61.5%) - 预计剩余时间: 1.8分钟
+2025-12-01 17:22:33 | MainThread   | INFO     | 系统状态: CPU使用率 73.7%, 内存使用率 8.9%
+2025-12-01 17:22:39 | MainThread   | INFO     | 进度: 241/390 - 完成: Case completed: target=0.019, indenter_x=0.012
+2025-12-01 17:22:39 | MainThread   | INFO     | 进度: 242/390 - 完成: Case completed: target=0.019, indenter_x=0.014
+2025-12-01 17:22:40 | MainThread   | INFO     | 进度: 243/390 - 完成: Case completed: target=0.019, indenter_x=0.016
+2025-12-01 17:22:40 | MainThread   | INFO     | 进度: 244/390 - 完成: Case completed: target=0.019, indenter_x=0.018
+2025-12-01 17:22:40 | MainThread   | INFO     | 进度: 245/390 - 完成: Case completed: target=0.019, indenter_x=0.02
+2025-12-01 17:22:40 | MainThread   | INFO     | 进度: 246/390 - 完成: Case completed: target=0.019, indenter_x=0.022
+2025-12-01 17:22:42 | MainThread   | INFO     | 进度: 247/390 - 完成: Case completed: target=0.019, indenter_x=0.024
+2025-12-01 17:22:42 | MainThread   | INFO     | 进度: 248/390 - 完成: Case completed: target=0.019, indenter_x=0.026
+2025-12-01 17:22:42 | MainThread   | INFO     | 进度: 249/390 - 完成: Case completed: target=0.019, indenter_x=0.028
+2025-12-01 17:22:42 | MainThread   | INFO     | 进度: 250/390 - 完成: Case completed: target=0.019, indenter_x=0.03
+2025-12-01 17:22:42 | MainThread   | INFO     | 进度报告: 已完成 250/390 (64.1%) - 预计剩余时间: 1.7分钟
+2025-12-01 17:22:43 | MainThread   | INFO     | 系统状态: CPU使用率 74.8%, 内存使用率 8.9%
+2025-12-01 17:22:44 | MainThread   | INFO     | 进度: 251/390 - 完成: Case completed: target=0.019, indenter_x=0.032
+2025-12-01 17:22:45 | MainThread   | INFO     | 进度: 252/390 - 完成: Case completed: target=0.019, indenter_x=0.034
+2025-12-01 17:22:46 | MainThread   | WARNING  | 收到中断信号，正在优雅退出...
+2025-12-01 17:22:46 | MainThread   | INFO     | 正在关闭进程池...
+2025-12-01 17:22:46 | MainThread   | INFO     | 退出中...
+2025-12-01 17:22:46 | MainThread   | INFO     | ============================================================
+2025-12-01 17:22:46 | MainThread   | INFO     | 模拟完成总结:
+2025-12-01 17:22:46 | MainThread   | INFO     | 总任务数: 390
+2025-12-01 17:22:46 | MainThread   | INFO     | 已完成: 252
+2025-12-01 17:22:46 | MainThread   | INFO     | 成功: 252
+2025-12-01 17:22:46 | MainThread   | INFO     | 失败: 0
+2025-12-01 17:22:46 | MainThread   | INFO     | 完成率: 64.62%
+2025-12-01 17:22:46 | MainThread   | INFO     | 成功率: 100.00%
+2025-12-01 17:22:46 | MainThread   | INFO     | 总耗时: 3.06 分钟
+2025-12-01 17:22:46 | MainThread   | INFO     | 平均每个任务: 0.73 秒
+2025-12-01 17:22:46 | MainThread   | INFO     | 结果保存到: D:\code\magsim\4-scripts\simulation_results
+2025-12-01 17:22:46 | MainThread   | INFO     | 程序被用户中断退出
+2025-12-01 17:22:46 | MainThread   | INFO     | ============================================================

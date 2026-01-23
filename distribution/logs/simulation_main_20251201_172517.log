@@ -1,0 +1,91 @@
+2025-12-01 17:25:17 | MainThread   | INFO     | ============================================================
+2025-12-01 17:25:17 | MainThread   | INFO     | 开始多进程模拟处理
+2025-12-01 17:25:17 | MainThread   | INFO     | 可用CPU核心数: 24
+2025-12-01 17:25:17 | MainThread   | INFO     | 使用进程数: 16
+2025-12-01 17:25:17 | MainThread   | INFO     | 提示: 使用 Ctrl+C 可以优雅退出程序
+2025-12-01 17:25:17 | MainThread   | INFO     | ============================================================
+2025-12-01 17:25:17 | MainThread   | INFO     | 输出目录已存在，正在删除 simulation_results 及其所有子目录...
+2025-12-01 17:25:17 | MainThread   | INFO     | 删除完成
+2025-12-01 17:25:17 | MainThread   | INFO     | 总共生成 390 个参数组合
+2025-12-01 17:25:17 | MainThread   | INFO     | 开始处理 390 个任务
+2025-12-01 17:25:17 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:17 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:17 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:17 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:17 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:17 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:17 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:17 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:17 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:17 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:17 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:17 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:17 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:17 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:17 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:17 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:18 | MainThread   | INFO     | 模拟运行器初始化完成
+2025-12-01 17:25:18 | MainThread   | INFO     | 模拟运行器初始化完成
+2025-12-01 17:25:18 | MainThread   | INFO     | 模拟运行器初始化完成
+2025-12-01 17:25:18 | MainThread   | INFO     | 模拟运行器初始化完成
+2025-12-01 17:25:18 | MainThread   | INFO     | 模拟运行器初始化完成
+2025-12-01 17:25:18 | MainThread   | INFO     | 模拟运行器初始化完成
+2025-12-01 17:25:18 | MainThread   | INFO     | 模拟运行器初始化完成
+2025-12-01 17:25:18 | MainThread   | INFO     | 模拟运行器初始化完成
+2025-12-01 17:25:18 | MainThread   | INFO     | 模拟运行器初始化完成
+2025-12-01 17:25:18 | MainThread   | INFO     | 模拟运行器初始化完成
+2025-12-01 17:25:18 | MainThread   | INFO     | 模拟运行器初始化完成
+2025-12-01 17:25:18 | MainThread   | INFO     | 模拟运行器初始化完成
+2025-12-01 17:25:18 | MainThread   | INFO     | 模拟运行器初始化完成
+2025-12-01 17:25:18 | MainThread   | INFO     | 模拟运行器初始化完成
+2025-12-01 17:25:18 | MainThread   | INFO     | 模拟运行器初始化完成
+2025-12-01 17:25:24 | MainThread   | INFO     | 已删除 79 个原始npy文件
+2025-12-01 17:25:24 | MainThread   | INFO     | 已删除 79 个原始npy文件
+2025-12-01 17:25:24 | MainThread   | INFO     | 进度: 1/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.0
+2025-12-01 17:25:24 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:24 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:24 | MainThread   | INFO     | 已删除 79 个原始npy文件
+2025-12-01 17:25:24 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:24 | MainThread   | INFO     | 已删除 79 个原始npy文件
+2025-12-01 17:25:24 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:24 | MainThread   | INFO     | 已删除 79 个原始npy文件
+2025-12-01 17:25:24 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:24 | MainThread   | INFO     | 已删除 79 个原始npy文件
+2025-12-01 17:25:24 | MainThread   | INFO     | 已删除 79 个原始npy文件
+2025-12-01 17:25:24 | MainThread   | INFO     | 已删除 79 个原始npy文件
+2025-12-01 17:25:24 | MainThread   | INFO     | 进度: 2/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.002
+2025-12-01 17:25:24 | MainThread   | INFO     | 进度: 3/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.004
+2025-12-01 17:25:24 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:24 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:24 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:24 | MainThread   | INFO     | 已删除 79 个原始npy文件
+2025-12-01 17:25:24 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:24 | MainThread   | INFO     | 已删除 79 个原始npy文件
+2025-12-01 17:25:24 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:24 | MainThread   | INFO     | 已删除 79 个原始npy文件
+2025-12-01 17:25:24 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:24 | MainThread   | INFO     | 已删除 79 个原始npy文件
+2025-12-01 17:25:24 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:25 | MainThread   | INFO     | 已删除 79 个原始npy文件
+2025-12-01 17:25:25 | MainThread   | INFO     | 进度: 4/390 - 完成: Case completed: target=0.027999999999999997, indenter_x=0.006
+2025-12-01 17:25:25 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:25 | MainThread   | INFO     | 已删除 79 个原始npy文件
+2025-12-01 17:25:25 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:25 | MainThread   | INFO     | 已删除 79 个原始npy文件
+2025-12-01 17:25:25 | MainThread   | WARNING  | 收到中断信号，正在优雅退出...
+2025-12-01 17:25:25 | MainThread   | INFO     | 正在关闭进程池...
+2025-12-01 17:25:25 | MainThread   | INFO     | 柔性体质量: 0.153600 kg
+2025-12-01 17:25:25 | MainThread   | INFO     | 退出中...
+2025-12-01 17:25:25 | MainThread   | INFO     | ============================================================
+2025-12-01 17:25:25 | MainThread   | INFO     | 模拟完成总结:
+2025-12-01 17:25:25 | MainThread   | INFO     | 总任务数: 390
+2025-12-01 17:25:25 | MainThread   | INFO     | 已完成: 4
+2025-12-01 17:25:25 | MainThread   | INFO     | 成功: 4
+2025-12-01 17:25:25 | MainThread   | INFO     | 失败: 0
+2025-12-01 17:25:25 | MainThread   | INFO     | 完成率: 1.03%
+2025-12-01 17:25:25 | MainThread   | INFO     | 成功率: 100.00%
+2025-12-01 17:25:25 | MainThread   | INFO     | 总耗时: 0.13 分钟
+2025-12-01 17:25:25 | MainThread   | INFO     | 平均每个任务: 1.96 秒
+2025-12-01 17:25:25 | MainThread   | INFO     | 结果保存到: D:\code\magsim\4-scripts\simulation_results
+2025-12-01 17:25:25 | MainThread   | INFO     | 程序被用户中断退出
+2025-12-01 17:25:25 | MainThread   | INFO     | ============================================================
