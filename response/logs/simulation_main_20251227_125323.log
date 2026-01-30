@@ -1,7 +1,0 @@
-2025-12-27 12:53:25 | MainThread   | INFO     | 模拟开始: TARGET=0.0070, X=0.0050, Y=0.0020, TYPE=1
-2025-12-27 12:59:31 | MainThread   | INFO     | 模拟开始: TARGET=0.0070, X=0.0050, Y=0.0040, TYPE=3
-2025-12-27 13:09:52 | MainThread   | INFO     | 模拟开始: TARGET=0.0070, X=0.0060, Y=-0.0060, TYPE=5
-2025-12-27 13:13:07 | MainThread   | INFO     | 模拟开始: TARGET=0.0070, X=0.0060, Y=-0.0030, TYPE=1
-2025-12-27 13:17:30 | MainThread   | INFO     | 模拟开始: TARGET=0.0070, X=0.0060, Y=-0.0010, TYPE=2
-2025-12-27 13:22:39 | MainThread   | INFO     | 模拟开始: TARGET=0.0070, X=0.0060, Y=0.0010, TYPE=2
-2025-12-27 13:28:26 | MainThread   | INFO     | 模拟开始: TARGET=0.0070, X=0.0060, Y=0.0040, TYPE=4

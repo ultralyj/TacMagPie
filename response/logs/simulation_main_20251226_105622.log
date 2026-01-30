@@ -1,5 +1,0 @@
-2025-12-26 10:56:24 | MainThread   | INFO     | 模拟开始: TARGET=0.0060, X=0.0060, Y=-0.0060, TYPE=3
-2025-12-26 10:59:15 | MainThread   | INFO     | 模拟开始: TARGET=0.0060, X=0.0060, Y=-0.0030, TYPE=2
-2025-12-26 11:02:03 | MainThread   | INFO     | 模拟开始: TARGET=0.0060, X=0.0060, Y=-0.0010, TYPE=5
-2025-12-26 11:06:26 | MainThread   | INFO     | 模拟开始: TARGET=0.0060, X=0.0060, Y=0.0010, TYPE=5
-2025-12-26 11:11:48 | MainThread   | INFO     | 模拟开始: TARGET=0.0060, X=0.0060, Y=0.0040, TYPE=3

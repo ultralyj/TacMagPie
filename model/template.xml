@@ -1,0 +1,129 @@
+<mujoco model="Press">
+
+    <!-- Global settings -->
+    <include file="scene.xml" />
+    <compiler autolimits="true" />
+    <option solver="Newton"
+            tolerance="1e-8"
+            timestep="{TIMESTEP}"
+            integrator="implicitfast"/>
+    <size memory="100M" />
+
+    <!-- Assets -->
+    <asset>
+        <mesh file="./CNC3018.STL" name="CNC3018" scale="0.001 0.001 0.001" />
+        <mesh file="./board.STL" name="board" scale="0.001 0.001 0.001" />
+        <mesh file="./rig.STL" name="rig" scale="0.001 0.001 0.001" />
+        <mesh file="./indenter_type2.STL" name="indenter" scale="0.001 0.001 0.001" />
+        <mesh file="./press_sensor.STL" name="press_sensor" scale="0.001 0.001 0.001" />
+        <mesh file="./press_outer.STL" name="press_outer" scale="0.001 0.001 0.001" />
+    </asset>
+
+    <!-- World -->
+    <worldbody>
+
+        <body name="cnc3018" pos="-0.1948 -0.1628 0" euler="0 0 0">
+            <geom type="mesh" mesh="CNC3018"
+                  name="cnc3018_geom"
+                  rgba="0.1 0.1 0.1 1"
+                  contype="0"
+                  conaffinity="0"/>
+
+            <body name="board" pos="0.04 0.27 0.06" quat="0.717 0.717 0 0">
+                <geom type="mesh" mesh="board"
+                      name="board_geom"
+                      rgba="0.4 0.4 0.4 1"
+                      contype="0"
+                      conaffinity="0"/>
+
+                <body name="rig" pos="0.121 0.0270 0.0735" quat="0.717 0.717 0 0">
+                    <geom type="mesh" mesh="rig"
+                          name="rig_geom"
+                          rgba="1 1 1 1"
+                          contype="0"
+                          conaffinity="0"/>
+
+                    <body name="pcb" pos="0.034 0.034 0.0016">
+                        <geom name="pcb_geom"
+                              type="box"
+                              size="0.008 0.008 0.0008"
+                              rgba="0.1 0.4 0.1 1"
+                              contype="0"
+                              conaffinity="0"/>
+                    </body>
+                </body>
+            </body>
+        </body>
+
+        <!-- Deformable object -->
+        <flexcomp name="A"
+                  type="grid"
+                  count="{GRID_X} {GRID_Y} {GRID_Z}"
+                  spacing="{GRID_SPACING} {GRID_SPACING} {GRID_SPACING}"
+                  pos="0 0 0.0875"
+                  radius=".00001" 
+                  rgba="0 1 1 1"
+                  dim="3"
+                  mass="{FLEX_MASS}">
+            <pin id="{PIN_IDS}" />
+            <edge damping="1e-1" />
+            <contact condim="3" solref="0.01 1" solimp=".95 .99 .0001" selfcollide="none"/>
+            <elasticity young="1.2e5" poisson="0.49" damping="1e-6"/>
+        </flexcomp>
+
+        <!-- Indenter -->
+        <body name="indenter"
+              pos="{INDENTER_X} {INDENTER_Y} 0.118"
+              quat="0 1 0 0">
+
+            <joint name="indenter_slider"
+                   type="slide"
+                   axis="0 0 1"
+                   range="0 0.009"
+                   damping="1"
+                   stiffness="0" />
+
+            <geom type="mesh"
+                  mesh="indenter"
+                  name="indenter_geom"
+                  pos="-0.0173 0.0173 0"
+                  quat="0.717 0.717 0 0"
+                  rgba="0.8 0.3 0.3 1"
+                  solref="0.001 0.9"/>
+
+            <site name="force_sensor_site"
+                  type="sphere"
+                  size="0.0005"
+                  pos="0 0 0.005"
+                  rgba="1 0 0 1" />
+
+            <body name="outer" pos="0 0 0" quat="0 0 0 1">
+                <geom type="mesh"
+                      mesh="press_outer"
+                      name="press_outer_geom"
+                      pos="-0.022 0.022 -0.05"
+                      quat="0.717 0.717 0 0"
+                      rgba="0.4 0.4 0.4 1" />
+            </body>
+        </body>
+
+    </worldbody>
+
+    <!-- Actuators -->
+    <actuator>
+        <position name="position_control"
+                  joint="indenter_slider"
+                  kp="500000"
+                  kv="1000"
+                  ctrlrange="0.0 0.009"/>
+    </actuator>
+
+    <!-- Sensors -->
+    <sensor>
+        <force name="force_sensor" site="force_sensor_site" />
+        <actuatorfrc name="actuator_force" actuator="position_control"/>
+        <jointpos name="indenter_position" joint="indenter_slider"/>
+        <jointvel name="indenter_velocity" joint="indenter_slider"/>
+    </sensor>
+
+</mujoco>
