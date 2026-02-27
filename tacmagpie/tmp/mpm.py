@@ -2,7 +2,7 @@
 import taichi as ti
 import numpy as np
 import os
-
+import time
 ti.init(arch=ti.gpu)
 
 # ─── 物理参数 ───────────────────────────────────────────────
@@ -38,7 +38,7 @@ SENSOR_POS = (domain * 0.5, -0.005, domain * 0.5)
 
 # ─── 点云碰撞器参数 ──────────────────────────────────────────
 MAX_COLLIDER_PTS = 50000          # 最多支持的点云点数
-COLLIDER_RADIUS  = dx * 0.8      # 每个点云点的影响半径（碰撞检测用）
+COLLIDER_RADIUS  = dx * 1.5      # 每个点云点的影响半径（碰撞检测用）
 
 
 # ════════════════════════════════════════════════════════════
@@ -222,20 +222,21 @@ def yeoh_piola(F_mat: ti.template()):
 # ════════════════════════════════════════════════════════════
 #  MPM substep（带点云碰撞）
 # ════════════════════════════════════════════════════════════
+
 @ti.kernel
 def substep(
-    col_pts:    ti.template(),   # 点云 field
-    col_n:      ti.template(),   # 有效点数
-    col_radius: ti.template(),   # 碰撞半径
-    col_vel:    ti.template(),   # 碰撞体速度
-    col_force:  ti.template(),   # 力输出
+    col_pts:    ti.template(),
+    col_n:      ti.template(),
+    col_radius: ti.template(),
+    col_vel:    ti.template(),
+    col_force:  ti.template(),
 ):
     # 1. 清空网格
     for i, j, k in grid_m:
         grid_v[i, j, k] = ti.Vector.zero(ti.f32, DIM)
         grid_m[i, j, k] = 0.0
 
-    # 2. P2G
+    # 2. P2G（不变）
     for p in range(n_particles):
         Xp   = x[p] * inv_dx
         base = ti.cast(Xp - 0.5, ti.i32)
@@ -250,7 +251,7 @@ def substep(
             grid_v[base+offset] += weight * (p_mass * v[p] + affine @ dpos)
             grid_m[base+offset] += weight * p_mass
 
-    # 3. 网格更新 + 点云碰撞
+    # 3. 网格更新 + 改进的点云碰撞
     radius = col_radius[None]
     n_col  = col_n[None]
     c_vel  = col_vel[None]
@@ -260,33 +261,34 @@ def substep(
             grid_v[i, j, k] /= grid_m[i, j, k]
             gpos = ti.Vector([i, j, k], dt=ti.f32) * dx
 
-            # ── 点云碰撞检测 ──────────────────────────────────
-            # 遍历所有点云点，找最近的碰撞点
-            hit      = False
-            best_n   = ti.Vector.zero(ti.f32, DIM)
-            best_d   = radius + 1.0   # 初始化为大值
+            # ── 改进：找最近点云点，用距离判断是否碰撞 ──────
+            min_dist  = radius * 10.0   # 初始化为大值
+            closest_n = ti.Vector.zero(ti.f32, DIM)
 
             for q in range(n_col):
-                diff  = gpos - col_pts[q]
-                dist  = diff.norm()
-                if dist < radius and dist < best_d:
-                    best_d = dist
-                    best_n = diff.normalized()
-                    hit    = True
+                diff = gpos - col_pts[q]
+                dist = diff.norm()
+                if dist < min_dist:
+                    min_dist  = dist
+                    # 避免零向量
+                    if dist > 1e-6:
+                        closest_n = diff / dist
+                    else:
+                        closest_n = ti.Vector([0.0, 1.0, 0.0])
 
-            if hit:
+            # 只要网格节点到最近点云点的距离小于半径就触发碰撞
+            if min_dist < radius:
                 rel_v = grid_v[i, j, k] - c_vel
-                vn    = rel_v.dot(best_n)
+                vn    = rel_v.dot(closest_n)
                 if vn < 0:
-                    delta_v = -vn * best_n
+                    delta_v = -vn * closest_n
                     grid_v[i, j, k] += delta_v
-                    # 累加碰撞力（牛顿第三定律：作用在碰撞体上的力）
                     f_contrib = -grid_m[i, j, k] * delta_v / dt
                     ti.atomic_add(col_force[None][0], f_contrib[0])
                     ti.atomic_add(col_force[None][1], f_contrib[1])
                     ti.atomic_add(col_force[None][2], f_contrib[2])
 
-            # ── 边界条件 ──────────────────────────────────────
+            # ── 边界条件（不变）──────────────────────────────
             if j < 3:
                 grid_v[i, j, k] = ti.Vector.zero(ti.f32, DIM)
             if j > n_grid-3 and grid_v[i,j,k][1] > 0: grid_v[i,j,k][1] = 0.0
@@ -295,7 +297,7 @@ def substep(
             if k < 3 and grid_v[i,j,k][2] < 0:        grid_v[i,j,k][2] = 0.0
             if k > n_grid-3 and grid_v[i,j,k][2] > 0: grid_v[i,j,k][2] = 0.0
 
-    # 4. G2P
+    # 4. G2P（不变）
     for p in range(n_particles):
         Xp   = x[p] * inv_dx
         base = ti.cast(Xp - 0.5, ti.i32)
@@ -501,9 +503,10 @@ class MPMSimulator:
             col.clear_force()
 
             # MPM substep
+            timestart = time.time()
             substep(col.ti_pts, col.ti_n, col.ti_radius,
                     col.ti_vel, col.ti_force)
-
+            print(f"Substep computed in {(time.time() - timestart)*1000:.2f} ms", flush=True)
             self.t += dt
 
         self.frame += 1
@@ -531,14 +534,16 @@ class MPMSimulator:
                 self._render()
         else:
             for _ in range(total_frames):
+                # timestart = time.time()
                 self.step_frame()
+                # print(f"Frame {self.frame:4d} computed in {(time.time() - timestart)*1000:.2f} ms")
                 if self.frame % print_interval == 0:
                     B = self.get_B_delta()
                     f = self.collider.get_force()
-                    print(f"Frame {self.frame:4d} | t={self.t:.4f}s | "
-                          f"pos={self.collider.position} | "
-                          f"F={f} N | "
-                          f"ΔB=[{B[0]:.3e},{B[1]:.3e},{B[2]:.3e}] T")
+                    # print(f"Frame {self.frame:4d} | t={self.t:.4f}s | "
+                    #       f"pos={self.collider.position} | "
+                    #       f"F={f} N | "
+                    #       f"ΔB=[{B[0]:.3e},{B[1]:.3e},{B[2]:.3e}] T")
 
 
 # ════════════════════════════════════════════════════════════
@@ -574,7 +579,7 @@ if __name__ == "__main__":
     # 方案A：简单按压控制器
     slab_top_y   = 2 * dx + slab_y
     init_center  = np.array([domain*0.5,
-                              slab_top_y + COLLIDER_RADIUS + 0.001,
+                              slab_top_y + COLLIDER_RADIUS + 0.008,
                               domain*0.5], dtype=np.float32)
 
     controller = PressAndHoldController(
