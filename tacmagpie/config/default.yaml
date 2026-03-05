@@ -1,78 +1,87 @@
 # ═══════════════════════════════════════════════════════════
-#  MPM 仿真配置文件  config.yaml
+#  MPM Simulation Configuration
 # ═══════════════════════════════════════════════════════════
 
-# ─── 物理参数 ────────────────────────────────────────────────
+# ─── Physics Parameters ──────────────────────────────────────
 physics:
   dim: 3
-  E: 5.0e5          # 杨氏模量 (Pa)
-  nu: 0.49          # 泊松比
-  rho: 1000.0       # 密度 (kg/m³)
+  E: 5.0e5           # Young's modulus (Pa)
+  nu: 0.49           # Poisson's ratio
+  rho: 1000.0        # Density (kg/m³)
 
-# ─── 硅胶板几何 ──────────────────────────────────────────────
+# ─── Silicone Slab Geometry ──────────────────────────────────
 slab:
-  x: 0.16           # 板长 X (m)
-  y: 0.02           # 板厚 Y (m)
-  z: 0.16           # 板宽 Z (m)
+  x: 0.16            # Slab length in X (m)
+  y: 0.02            # Slab thickness in Y (m)
+  z: 0.16            # Slab width in Z (m)
 
-# ─── 仿真域 & 网格 ───────────────────────────────────────────
+# ─── Simulation Domain & Grid ────────────────────────────────
 grid:
-  domain: 0.2       # 仿真域边长 (m)
-  n_grid: 32        # 每轴网格数
-  dt: 1.0e-4        # 时间步长 (s)
-  particle_spacing_factor: 0.5   # 粒子间距 = dx * factor
+  domain: 0.2        # Simulation domain side length (m)
+  n_grid: 32         # Grid cells per axis
+  dt: 1.0e-4         # Timestep (s)
+  particle_spacing_factor: 0.5   # Particle spacing = dx * factor
 
-# ─── Yeoh 本构参数 ───────────────────────────────────────────
+# ─── Yeoh Constitutive Parameters ───────────────────────────
 constitutive:
   model: yeoh
-  C1: 1.0e5         # Yeoh C1 (Pa)   = 1e-1 * 1e6
-  C2: 6.42e4        # Yeoh C2 (Pa)   = 6.42e-2 * 1e6
-  C3: 8.08e1        # Yeoh C3 (Pa)   = 8.08e-5 * 1e6
-  kappa: 0.0        # 体积模量修正
+  C1: 1.0e5          # Yeoh C1 (Pa)   = 1e-1 × 1e6
+  C2: 6.42e4         # Yeoh C2 (Pa)   = 6.42e-2 × 1e6
+  C3: 8.08e1         # Yeoh C3 (Pa)   = 8.08e-5 × 1e6
+  kappa: 0.0         # Bulk modulus correction
 
-# ─── 磁场传感器 ──────────────────────────────────────────────
+# ─── Magnetic Sensors ────────────────────────────────────────
 magnetic:
-  mu_0_4pi: 1.0e-7  # μ₀/(4π)
-  B0: 1.0e-3        # 粒子磁矩 (A·m²)
-  sensor_pos:       # 传感器世界坐标 (x, y, z)，None → 自动计算
-    x: null         # null = domain*0.5
-    y: -0.005
-    z: null         # null = domain*0.5
+  mu_0_4pi: 1.0e-7   # μ₀/(4π)
+  B0: 1.0e-3         # Particle magnetic moment (A·m²)
+  sensors:            # Sensor world coordinates (x, y, z)
+    - { x:  0.04, y: -0.005, z: -0.04 }
+    - { x: -0.04, y: -0.005, z: -0.04 }
+    - { x:  0,    y: -0.005, z:  0    }
+    - { x:  0.04, y: -0.005, z:  0.04 }
+    - { x: -0.04, y: -0.005, z:  0.04 }
 
-# ─── 点云碰撞器 ──────────────────────────────────────────────
+# ─── Point Cloud Collider ────────────────────────────────────
 collider:
-  max_pts: 50000                # 最大支持点数
-  radius_factor: 1.5            # 碰撞半径 = dx * radius_factor
-  init_offset_y: 0.03          # 初始悬停高度（相对于板顶面）(m)，null → radius+0.001
-  vis_radius_factor: 0.2
-# ─── 运动控制器 ──────────────────────────────────────────────
-# 可选: press_and_hold | trajectory | none
+  max_pts: 50000              # Maximum supported point count
+  radius_factor: 1.2          # Collision radius = dx × radius_factor
+  init_offset_y: 0.026        # Initial hover height above slab top (m), null = radius + 0.001
+  vis_radius_factor: 0.2      # Visualization particle radius = dx × vis_radius_factor
+
+# ─── Motion Controller ──────────────────────────────────────
+# Options: press_and_hold | trajectory | none
 controller:
   type: press_and_hold
 
   press_and_hold:
-    press_speed: 0.02   # 按压速度 (m/s)
-    press_depth: 0.008  # 按压深度 (m)
+    press_speed: 0.02         # Press speed (m/s)
+    press_depth: 0.01         # Press depth (m)
 
-  # trajectory 示例（type 改为 trajectory 后生效）
+  # Trajectory mode (activate by setting type: trajectory)
   trajectory:
     t_start: 0.0
     t_end: 2.0
     n_points: 200
     press_depth: 0.008
-    press_time: 0.4     # 多久完成按压
+    press_time: 0.4           # Time to complete press phase (s)
 
-# ─── 仿真运行 ────────────────────────────────────────────────
+# ─── Simulation Execution ────────────────────────────────────
 simulation:
   total_frames: 600
   substeps: 20
   print_interval: 10
   use_gui: true
 
-# ─── 点云文件 ────────────────────────────────────────────────
+# ─── Point Cloud File ────────────────────────────────────────
 pointcloud:
-  file: null                    # null → 自动生成演示球形点云
+  file: none  # Path to input point cloud file (PLY or NPZ). If null, uses built-in demo.
   demo_ball:
     radius: 0.03
     n_points: 1000
     save_path: ./tmp/demo_ball.npy
+
+# ─── WebSocket Server ────────────────────────────────────────
+websocket:
+  enable: true
+  host: "localhost"
+  port: 8765

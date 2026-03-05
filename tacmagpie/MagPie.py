@@ -11,7 +11,6 @@ python main.py ball.npy                 # 默认配置 + 指定点云文件
 """
 
 import taichi as ti
-
 from config_loader import SimConfig, load_config
 from simulator     import MPMSimulator
 from utils         import generate_demo_pointcloud, parse_args
@@ -46,8 +45,24 @@ def main():
             )
 
     # ── 5. 创建仿真并运行 ────────────────────────────────────
-    sim = MPMSimulator(pc_file=pc_file, cfg=cfg)
-    sim.run()
+    sim = MPMSimulator(pc_file=pc_file, cfg=cfg, ws_server=None)
+    
+    if cfg.websocket_enable:
+        import asyncio
+        from websocket import MagneticDataServer
+        
+        async def run_with_ws():
+            ws_server = MagneticDataServer(host="localhost", port=8765)
+            sim.ws_server = ws_server
+            
+            server_task = asyncio.create_task(ws_server.start())
+            await asyncio.sleep(0.1)
+            
+            await sim._run_with_ws()
+        
+        asyncio.run(run_with_ws())
+    else:
+        sim.run()
 
 
 if __name__ == "__main__":
